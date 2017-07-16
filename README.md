@@ -44,7 +44,7 @@ if __name__ == '__main__':
     hello()
 ```
 
-我什麼要用 `click.echo()` 而不是 `print()`呢 ?
+為什麼要用 `click.echo()` 而不是 `print()`呢 ?
 
  因為這樣可以解決一些編碼上的問題 ( 詳細請看 [click](http://click.pocoo.org) 的 source code )。
 
@@ -62,7 +62,7 @@ if __name__ == '__main__':
 
 接下來介紹建立屬於自己的 command line tool，
 
-可以參考我的 [setup.py]() ，程式碼如下
+可以參考我的 [setup.py](https://github.com/twtrubiks/crawler_click_tutorial/blob/master/setup.py) ，程式碼如下
 
 ```python
 from setuptools import setup
@@ -86,9 +86,7 @@ setup(
 
 最後只需要在 cmd ( 命令提示字元 ) 執行
 
-```python
-pip install --editable .
-```
+> pip install --editable .
 
 ***注意，最後有個  `.`***
 
