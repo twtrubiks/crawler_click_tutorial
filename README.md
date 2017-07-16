@@ -6,7 +6,7 @@
 
 本範例使用之前所寫的簡單爬蟲 [eynyCrawlerMega](https://github.com/twtrubiks/eynyCrawlerMega) 。
 
-* [Youtube Tutorial]()
+* [Youtube Tutorial](https://youtu.be/6b2iEg3J8ak)
 
 ## 特色
 
